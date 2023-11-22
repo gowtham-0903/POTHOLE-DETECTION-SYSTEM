@@ -84,9 +84,9 @@ CREATE TABLE `rm_upload` (
 --
 
 INSERT INTO `rm_upload` (`id`, `uname`, `filename`, `lat`, `lon`, `location`, `rdate`, `reply`) VALUES
-(1, 'raj', '5.jpg', '13.1262', '80.2335', 'SS Road, Trichy', '10-09-2022', 'solved'),
-(2, 'raj', '1.jpg', '10.813214', '78.710165', 'Trichy', '12-09-2022', ''),
-(3, 'dinesh', 'cm3ed7u-ph.jpg', '11.668798', '78.140287', 'Salem Bus Stand', '13-09-2022', '');
+(1, 'Gowtham', '5.jpg', '13.1262', '80.2335', 'SS Road, Trichy', '10-09-2022', 'solved'),
+(2, 'Gowtham', '1.jpg', '10.813214', '78.710165', 'Trichy', '12-09-2022', ''),
+(3, 'Nikhil', 'cm3ed7u-ph.jpg', '11.668798', '78.140287', 'Salem Bus Stand', '13-09-2022', '');
 
 -- --------------------------------------------------------
 
@@ -110,5 +110,5 @@ CREATE TABLE `rm_user` (
 --
 
 INSERT INTO `rm_user` (`id`, `name`, `city`, `mobile`, `email`, `uname`, `pass`, `rdate`) VALUES
-(1, 'Raj', 'Trichy', 9638627415, 'raj@gmail.com', 'raj', '56789', '10-09-2022'),
-(2, 'Dinesh', 'Salem', 9054621096, 'dinesh@gmail.com', 'dinesh', '56789', '13-09-2022');
+(1, 'Gowtham', 'Trichy', 9638627415, 'gowthamsurig@gmail.com', 'gowtham', '56789', '10-09-2022'),
+(2, 'Nikhil', 'Salem', 9054621096, 'nikhil@gmail.com', 'nikhil', '56789', '13-09-2022');
